@@ -1,0 +1,125 @@
+\doxysection{entidades.\+h}
+\hypertarget{entidades_8h_source}{}\label{entidades_8h_source}\index{include/entidades.h@{include/entidades.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ENTIDADES\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ENTIDADES\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}dominios.h"{}}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_conta}{Conta}}\{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00011\ \ \ \ \ \mbox{\hyperlink{class_email}{Email}}\ email;}
+\DoxyCodeLine{00012\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ nome;}
+\DoxyCodeLine{00013\ \ \ \ \ \mbox{\hyperlink{class_senha}{Senha}}\ senha;}
+\DoxyCodeLine{00014\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{class_email}{Email}}\ \mbox{\hyperlink{class_conta_a6e1bd0d230d23b6c8a955d54e72320a6}{getEmail}}();}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_conta_adad038f674c6eb8690fcbae7f0ff9616}{getNome}}();}
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{class_senha}{Senha}}\ \mbox{\hyperlink{class_conta_acc8aa57be6ffe3bbc04a7ab89a08f1bd}{getSenha}}();}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_conta_ab29ed01e3b68a10962245c10873a9159}{setEmail}}(\mbox{\hyperlink{class_email}{Email}}\&);}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_conta_a78dde904a74ab5252f4af4d69d1d63e2}{setNome}}(\mbox{\hyperlink{class_texto}{Texto}}\&);}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_conta_ac2d9216a0ea1088dbfcd83fb79abaa16}{setSenha}}(\mbox{\hyperlink{class_senha}{Senha}}\&);}
+\DoxyCodeLine{00051\ \};}
+\DoxyCodeLine{00052\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_email}{Email}}\ \mbox{\hyperlink{class_conta_a6e1bd0d230d23b6c8a955d54e72320a6}{Conta::getEmail}}()\{}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordflow}{return}\ email;}
+\DoxyCodeLine{00054\ \}}
+\DoxyCodeLine{00055\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_conta_adad038f674c6eb8690fcbae7f0ff9616}{Conta::getNome}}()\{}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordflow}{return}\ nome;}
+\DoxyCodeLine{00057\ \}}
+\DoxyCodeLine{00058\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_senha}{Senha}}\ \mbox{\hyperlink{class_conta_acc8aa57be6ffe3bbc04a7ab89a08f1bd}{Conta::getSenha}}()\{}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordflow}{return}\ senha;}
+\DoxyCodeLine{00060\ \}}
+\DoxyCodeLine{00061\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_conta_ab29ed01e3b68a10962245c10873a9159}{Conta::setEmail}}(\mbox{\hyperlink{class_email}{Email}}\&\ e)\{}
+\DoxyCodeLine{00062\ \ \ \ \ this-\/>email\ =\ e;}
+\DoxyCodeLine{00063\ \}}
+\DoxyCodeLine{00064\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_conta_a78dde904a74ab5252f4af4d69d1d63e2}{Conta::setNome}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ nome)\{}
+\DoxyCodeLine{00065\ \ \ \ \ this-\/>nome\ =\ nome;}
+\DoxyCodeLine{00066\ \}}
+\DoxyCodeLine{00067\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_conta_ac2d9216a0ea1088dbfcd83fb79abaa16}{Conta::setSenha}}(\mbox{\hyperlink{class_senha}{Senha}}\&\ senha)\{}
+\DoxyCodeLine{00068\ \ \ \ \ this-\/>senha\ =\ senha;}
+\DoxyCodeLine{00069\ \}}
+\DoxyCodeLine{00070\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_quadro}{Quadro}}\{}
+\DoxyCodeLine{00071\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{class_codigo}{Codigo}}\ codigo;}
+\DoxyCodeLine{00073\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ nome;}
+\DoxyCodeLine{00074\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ descricao;}
+\DoxyCodeLine{00075\ \ \ \ \ \mbox{\hyperlink{class_limite}{Limite}}\ limite;}
+\DoxyCodeLine{00076\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00082\ \ \ \ \ \mbox{\hyperlink{class_codigo}{Codigo}}\ \mbox{\hyperlink{class_quadro_a51bd348857ea11c177a82e966947366e}{getCodigo}}();}
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_acde199d03bdc97567b669c90ebddd5c0}{setCodigo}}(\mbox{\hyperlink{class_codigo}{Codigo}}\&);}
+\DoxyCodeLine{00094\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_quadro_a71beeff8090dff4a55abfbaef5aef961}{getNome}}();}
+\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_afe56fd6cb7c943aea0f63a539c5fbbe1}{setNome}}(\mbox{\hyperlink{class_texto}{Texto}}\&);}
+\DoxyCodeLine{00106\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_quadro_a47ca69890c8be0418e6015cf712b35f9}{getDescricao}}();}
+\DoxyCodeLine{00112\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_a1c94b8db40d95ac7e7986aef7cb67748}{setDescricao}}(\mbox{\hyperlink{class_texto}{Texto}}\&);}
+\DoxyCodeLine{00118\ \ \ \ \ \mbox{\hyperlink{class_limite}{Limite}}\ \mbox{\hyperlink{class_quadro_a8efbcf3c48d7cdf341970aa7c1fd3fe5}{getLimite}}();}
+\DoxyCodeLine{00124\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_a1048b01d758ba1ef922d20efcf08b0ea}{setLimite}}(\mbox{\hyperlink{class_limite}{Limite}}\&);}
+\DoxyCodeLine{00125\ }
+\DoxyCodeLine{00126\ \};}
+\DoxyCodeLine{00127\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_codigo}{Codigo}}\ \mbox{\hyperlink{class_quadro_a51bd348857ea11c177a82e966947366e}{Quadro::getCodigo}}()\{}
+\DoxyCodeLine{00128\ \ \ \ \ \textcolor{keywordflow}{return}\ codigo;}
+\DoxyCodeLine{00129\ \}}
+\DoxyCodeLine{00130\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_quadro_a47ca69890c8be0418e6015cf712b35f9}{Quadro::getDescricao}}()\{}
+\DoxyCodeLine{00131\ \ \ \ \ \textcolor{keywordflow}{return}\ descricao;}
+\DoxyCodeLine{00132\ \}}
+\DoxyCodeLine{00133\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_limite}{Limite}}\ \mbox{\hyperlink{class_quadro_a8efbcf3c48d7cdf341970aa7c1fd3fe5}{Quadro::getLimite}}()\{}
+\DoxyCodeLine{00134\ \ \ \ \ \textcolor{keywordflow}{return}\ limite;}
+\DoxyCodeLine{00135\ \}}
+\DoxyCodeLine{00136\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_quadro_a71beeff8090dff4a55abfbaef5aef961}{Quadro::getNome}}()\{}
+\DoxyCodeLine{00137\ \ \ \ \ \textcolor{keywordflow}{return}\ nome;}
+\DoxyCodeLine{00138\ \}}
+\DoxyCodeLine{00139\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_acde199d03bdc97567b669c90ebddd5c0}{Quadro::setCodigo}}(\mbox{\hyperlink{class_codigo}{Codigo}}\&\ codigo)\{}
+\DoxyCodeLine{00140\ \ \ \ \ this-\/>codigo\ =\ codigo;}
+\DoxyCodeLine{00141\ \}}
+\DoxyCodeLine{00142\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_a1c94b8db40d95ac7e7986aef7cb67748}{Quadro::setDescricao}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ texto)\{}
+\DoxyCodeLine{00143\ \ \ \ \ this-\/>descricao\ =\ texto;}
+\DoxyCodeLine{00144\ \}}
+\DoxyCodeLine{00145\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_a1048b01d758ba1ef922d20efcf08b0ea}{Quadro::setLimite}}(\mbox{\hyperlink{class_limite}{Limite}}\&\ limite)\{}
+\DoxyCodeLine{00146\ \ \ \ \ this-\/>limite\ =\ limite;}
+\DoxyCodeLine{00147\ \}}
+\DoxyCodeLine{00148\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_quadro_afe56fd6cb7c943aea0f63a539c5fbbe1}{Quadro::setNome}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ nome)\{}
+\DoxyCodeLine{00149\ \ \ \ \ this-\/>nome\ =\ nome;}
+\DoxyCodeLine{00150\ \}}
+\DoxyCodeLine{00151\ }
+\DoxyCodeLine{00152\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_cartao}{Cartao}}\{}
+\DoxyCodeLine{00153\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00154\ \ \ \ \ \mbox{\hyperlink{class_codigo}{Codigo}}\ codigo;}
+\DoxyCodeLine{00155\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ nome;}
+\DoxyCodeLine{00156\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ descricao;}
+\DoxyCodeLine{00157\ \ \ \ \ \mbox{\hyperlink{class_coluna}{Coluna}}\ coluna;}
+\DoxyCodeLine{00158\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00164\ \ \ \ \ \mbox{\hyperlink{class_codigo}{Codigo}}\ \mbox{\hyperlink{class_cartao_a6828da96e2d18c9deec560c0f5e6a759}{getCodigo}}();}
+\DoxyCodeLine{00170\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_af77c34747b0e3f362673659c160b39eb}{setCodigo}}(\mbox{\hyperlink{class_codigo}{Codigo}}\&\ codigo);}
+\DoxyCodeLine{00176\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_cartao_adea7320ec994c4e8650023ba4b882f28}{getNome}}();}
+\DoxyCodeLine{00182\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_a3f148d03a2a2f422f999604e2ad8c697}{setNome}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ nome);}
+\DoxyCodeLine{00188\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_cartao_a31cd050bc671935eca54f9398ce650a2}{getDescricao}}();}
+\DoxyCodeLine{00194\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_a235e9bba45c3ebe37174aceb8ccabdb1}{setDescricao}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ descricao);}
+\DoxyCodeLine{00200\ \ \ \ \ \mbox{\hyperlink{class_coluna}{Coluna}}\ \mbox{\hyperlink{class_cartao_a77b131bfaa445d87b8b0ed8a40d012e1}{getColuna}}();}
+\DoxyCodeLine{00206\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_a6ec47e746b460f4c85cfd934613f13d5}{setColuna}}(\mbox{\hyperlink{class_coluna}{Coluna}}\&\ coluna);}
+\DoxyCodeLine{00207\ \};}
+\DoxyCodeLine{00208\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_codigo}{Codigo}}\ \mbox{\hyperlink{class_cartao_a6828da96e2d18c9deec560c0f5e6a759}{Cartao::getCodigo}}()\{}
+\DoxyCodeLine{00209\ \ \ \ \ \textcolor{keywordflow}{return}\ codigo;}
+\DoxyCodeLine{00210\ \}}
+\DoxyCodeLine{00211\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_af77c34747b0e3f362673659c160b39eb}{Cartao::setCodigo}}(\mbox{\hyperlink{class_codigo}{Codigo}}\&\ codigo)\{}
+\DoxyCodeLine{00212\ \ \ \ \ this-\/>codigo\ =\ codigo;}
+\DoxyCodeLine{00213\ \}}
+\DoxyCodeLine{00214\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_cartao_adea7320ec994c4e8650023ba4b882f28}{Cartao::getNome}}()\{}
+\DoxyCodeLine{00215\ \ \ \ \ \textcolor{keywordflow}{return}\ nome;}
+\DoxyCodeLine{00216\ \}}
+\DoxyCodeLine{00217\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_a3f148d03a2a2f422f999604e2ad8c697}{Cartao::setNome}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ nome)\{}
+\DoxyCodeLine{00218\ \ \ \ \ this-\/>nome\ =\ nome;}
+\DoxyCodeLine{00219\ \}}
+\DoxyCodeLine{00220\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_texto}{Texto}}\ \mbox{\hyperlink{class_cartao_a31cd050bc671935eca54f9398ce650a2}{Cartao::getDescricao}}()\{}
+\DoxyCodeLine{00221\ \ \ \ \ \textcolor{keywordflow}{return}\ descricao;}
+\DoxyCodeLine{00222\ \}}
+\DoxyCodeLine{00223\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_a235e9bba45c3ebe37174aceb8ccabdb1}{Cartao::setDescricao}}(\mbox{\hyperlink{class_texto}{Texto}}\&\ descricao)\{}
+\DoxyCodeLine{00224\ \ \ \ \ this-\/>descricao\ =\ descricao;}
+\DoxyCodeLine{00225\ \}}
+\DoxyCodeLine{00226\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_coluna}{Coluna}}\ \mbox{\hyperlink{class_cartao_a77b131bfaa445d87b8b0ed8a40d012e1}{Cartao::getColuna}}()\{}
+\DoxyCodeLine{00227\ \ \ \ \ \textcolor{keywordflow}{return}\ coluna;}
+\DoxyCodeLine{00228\ \}}
+\DoxyCodeLine{00229\ \textcolor{keyword}{inline}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_cartao_a6ec47e746b460f4c85cfd934613f13d5}{Cartao::setColuna}}(\mbox{\hyperlink{class_coluna}{Coluna}}\&\ coluna)\{}
+\DoxyCodeLine{00230\ \ \ \ \ this-\/>coluna\ =\ coluna;}
+\DoxyCodeLine{00231\ \}}
+\DoxyCodeLine{00232\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ENTIDADES\_H}}
+
+\end{DoxyCode}

@@ -1,0 +1,59 @@
+\doxysection{Email Class Reference}
+\hypertarget{class_email}{}\label{class_email}\index{Email@{Email}}
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_email_a0a3ffabafaaa30f0e96b7a24de82a9cf}{get\+Valor}} ()
+\item 
+void \mbox{\hyperlink{class_email_a6816d28f5db9ae31cf9520011c346f3f}{set\+Valor}} (string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Padrão para representação de \doxylink{class_email}{Email}.
+
+Regras de formato\+:
+
+-\/\doxylink{class_email}{Email} é valido no formato nome@domínio 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_email_a0a3ffabafaaa30f0e96b7a24de82a9cf}\label{class_email_a0a3ffabafaaa30f0e96b7a24de82a9cf} 
+\index{Email@{Email}!getValor@{getValor}}
+\index{getValor@{getValor}!Email@{Email}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Email\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna o \doxylink{class_email}{Email}.
+
+\begin{DoxyReturn}{Returns}
+\doxylink{class_email}{Email}. 
+\end{DoxyReturn}
+\Hypertarget{class_email_a6816d28f5db9ae31cf9520011c346f3f}\label{class_email_a6816d28f5db9ae31cf9520011c346f3f} 
+\index{Email@{Email}!setValor@{setValor}}
+\index{setValor@{setValor}!Email@{Email}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Email\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{ }\end{DoxyParamCaption})}
+
+Armazena o \doxylink{class_email}{Email} caso seja válido.
+
+Lança exceção caso o valor informado seja inválido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & \doxylink{class_email}{Email}.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/dominios.\+h\end{DoxyCompactItemize}

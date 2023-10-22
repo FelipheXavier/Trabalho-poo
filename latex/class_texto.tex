@@ -1,0 +1,59 @@
+\doxysection{Texto Class Reference}
+\hypertarget{class_texto}{}\label{class_texto}\index{Texto@{Texto}}
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_texto_ada9f873bed38699f6cd1b8f2bae76af9}{set\+Valor}} (string)
+\item 
+string \mbox{\hyperlink{class_texto_a6739873b5276be588004cd17c6d13c84}{get\+Valor}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Padrão para representação de \doxylink{class_texto}{Texto}.
+
+Regras de formato\+:
+
+-\/Para texto ser válido o tamanho deve ser entre 5 a 30 caracteres. O primeiro caractere deve ser maiúsculo, não deve haver espaços em bracos em sequência, não há acentuação, não há sinais de pontuação em sequência, o primeiro caractere após sinal de pontuação(exceto vírgula e ponto-\/e-\/vírgula) deve ser letra maiúscula. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_texto_a6739873b5276be588004cd17c6d13c84}\label{class_texto_a6739873b5276be588004cd17c6d13c84} 
+\index{Texto@{Texto}!getValor@{getValor}}
+\index{getValor@{getValor}!Texto@{Texto}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Texto\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna a \doxylink{class_texto}{Texto}.
+
+\begin{DoxyReturn}{Returns}
+\doxylink{class_texto}{Texto}. 
+\end{DoxyReturn}
+\Hypertarget{class_texto_ada9f873bed38699f6cd1b8f2bae76af9}\label{class_texto_ada9f873bed38699f6cd1b8f2bae76af9} 
+\index{Texto@{Texto}!setValor@{setValor}}
+\index{setValor@{setValor}!Texto@{Texto}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Texto\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{ }\end{DoxyParamCaption})}
+
+Armazena o \doxylink{class_texto}{Texto} caso seja válido.
+
+Lança exceção caso o valor informado seja inválido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & \doxylink{class_texto}{Texto}.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/dominios.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,59 @@
+\doxysection{Senha Class Reference}
+\hypertarget{class_senha}{}\label{class_senha}\index{Senha@{Senha}}
+
+
+{\ttfamily \#include $<$dominios.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_senha_a701d441609c24943de42442ceb0f5e43}{get\+Valor}} ()
+\item 
+void \mbox{\hyperlink{class_senha_a379d90c214392ccb42aaf49e3d39e112}{set\+Valor}} (string)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Padrão para representação de \doxylink{class_senha}{Senha}.
+
+Regras de formato\+:
+
+-\/Para ser valida a senha tem que ter 5 caracteres. Deve haver pelo menos um caractere maiúsculo, um caractere minúsculo, um dígito, um sinal de pontuação e não deve haver caractere duplicado. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_senha_a701d441609c24943de42442ceb0f5e43}\label{class_senha_a701d441609c24943de42442ceb0f5e43} 
+\index{Senha@{Senha}!getValor@{getValor}}
+\index{getValor@{getValor}!Senha@{Senha}}
+\doxysubsubsection{\texorpdfstring{getValor()}{getValor()}}
+{\footnotesize\ttfamily string Senha\+::get\+Valor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Retorna a \doxylink{class_senha}{Senha}.
+
+\begin{DoxyReturn}{Returns}
+\doxylink{class_senha}{Senha}. 
+\end{DoxyReturn}
+\Hypertarget{class_senha_a379d90c214392ccb42aaf49e3d39e112}\label{class_senha_a379d90c214392ccb42aaf49e3d39e112} 
+\index{Senha@{Senha}!setValor@{setValor}}
+\index{setValor@{setValor}!Senha@{Senha}}
+\doxysubsubsection{\texorpdfstring{setValor()}{setValor()}}
+{\footnotesize\ttfamily void Senha\+::set\+Valor (\begin{DoxyParamCaption}\item[{string}]{ }\end{DoxyParamCaption})}
+
+Armazena a senha caso seja válida.
+
+Lança exceção caso o valor informado seja inválido.
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & \doxylink{class_senha}{Senha}.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em invalid\+\_\+argument} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/dominios.\+h\end{DoxyCompactItemize}

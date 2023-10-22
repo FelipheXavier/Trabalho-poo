@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1697847151 source:c:\users\liper\onedrive\documentos\c++\tp1 trab\main.cpp
+	<iostream>
+	"dominios.h"
+	"entidades.h"
+	"dominios.cpp"
+	"testes.h"
+
+1697921421 c:\users\liper\onedrive\documentos\c++\tp1 trab\include\dominios.h
+	<stdexcept>
+
+1697751321 c:\users\liper\onedrive\documentos\c++\tp1 trab\dominios.cpp
+	"dominios.h"
+	<stdexcept>
+	<string>
+	<map>
+	<cctype>
+
+1697474586 source:c:\users\liper\onedrive\documentos\c++\tp1 trab\entidades.cpp
+	"entidades.h"
+
+1697935400 c:\users\liper\onedrive\documentos\c++\tp1 trab\include\entidades.h
+	"dominios.h"
+
+1697889977 source:c:\users\liper\onedrive\documentos\c++\tp1 trab\teste.cpp
+	"testes.h"
+
+1697844648 c:\users\liper\onedrive\documentos\c++\tp1 trab\include\testes.h
+	"dominios.h"
+	"entidades.h"
+	<string>
+

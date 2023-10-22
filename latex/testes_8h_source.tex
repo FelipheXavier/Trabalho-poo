@@ -1,0 +1,157 @@
+\doxysection{testes.\+h}
+\hypertarget{testes_8h_source}{}\label{testes_8h_source}\index{include/testes.h@{include/testes.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}dominios.h"{}}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}entidades.h"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#ifndef\ TESTES\_H}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#define\ TESTES\_H}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_codigo}{TUCodigo}}\{}
+\DoxyCodeLine{00009\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_VALIDO\ =\ \textcolor{stringliteral}{"{}AA22"{}};}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_INVALIDO\ =\ \textcolor{stringliteral}{"{}ax10"{}};}
+\DoxyCodeLine{00012\ \ \ \ \ \mbox{\hyperlink{class_codigo}{Codigo}}\ *codigo;}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioFalha();}
+\DoxyCodeLine{00018\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00022\ \};}
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_coluna}{TUColuna}}\{}
+\DoxyCodeLine{00024\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_VALIDO\ =\ \textcolor{stringliteral}{"{}SOLICITADO"{}};}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_INVALIDO\ =\ \textcolor{stringliteral}{"{}QUALQUER\ OUTRA\ COISA"{}};}
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_coluna}{Coluna}}\ *coluna;}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioFalha();}
+\DoxyCodeLine{00033\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00037\ \};}
+\DoxyCodeLine{00038\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_email}{TUEmail}}\{}
+\DoxyCodeLine{00039\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_VALIDO\ =\ \textcolor{stringliteral}{"{}jose@gmail.com"{}};}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_INVALIDO\ =\ \textcolor{stringliteral}{"{}arnaldo.@..com"{}};}
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{class_email}{Email}}\ *email;}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioFalha();}
+\DoxyCodeLine{00048\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00052\ \};}
+\DoxyCodeLine{00053\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_limite}{TULimite}}\{}
+\DoxyCodeLine{00054\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ VALOR\_VALIDO\ =\ 5;}
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ VALOR\_INVALIDO\ =\ 7;}
+\DoxyCodeLine{00057\ \ \ \ \ \mbox{\hyperlink{class_limite}{Limite}}\ *limite;}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioFalha();}
+\DoxyCodeLine{00063\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00067\ \};}
+\DoxyCodeLine{00068\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_senha}{TUSenha}}\{}
+\DoxyCodeLine{00069\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_VALIDO\ =\ \textcolor{stringliteral}{"{}Ax9.m"{}};}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_INVALIDO\ =\ \textcolor{stringliteral}{"{}AAx90"{}};}
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{class_senha}{Senha}}\ *senha;}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioFalha();}
+\DoxyCodeLine{00078\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00080\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00082\ \};}
+\DoxyCodeLine{00083\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_texto}{TUTexto}}\{}
+\DoxyCodeLine{00084\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00085\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_VALIDO\ =\ \textcolor{stringliteral}{"{}Lorem\ Ipsum\ is\ simply"{}};}
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ VALOR\_INVALIDO\ =\ \textcolor{stringliteral}{"{}lorem\ \ ís simply\ dummy\ text"{}};}
+\DoxyCodeLine{00087\ \ \ \ \ \mbox{\hyperlink{class_texto}{Texto}}\ *texto;}
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00089\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00090\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00091\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00092\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioFalha();}
+\DoxyCodeLine{00093\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00094\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00095\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00096\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00097\ \};}
+\DoxyCodeLine{00098\ }
+\DoxyCodeLine{00099\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_conta}{TUConta}}\{}
+\DoxyCodeLine{00100\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ EMAIL\_VALIDO\ =\ \textcolor{stringliteral}{"{}steve@gmail.com"{}};}
+\DoxyCodeLine{00102\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ NOME\_VALIDO\ =\ \textcolor{stringliteral}{"{}Feliphe"{}};}
+\DoxyCodeLine{00103\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ SENHA\_VALIDA\ =\ \textcolor{stringliteral}{"{}Ax9.m"{}};}
+\DoxyCodeLine{00104\ \ \ \ \ \mbox{\hyperlink{class_conta}{Conta}}\ *conta;}
+\DoxyCodeLine{00105\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00108\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00109\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00110\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00111\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00112\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00113\ \};}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00115\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_quadro}{TUQuadro}}\{}
+\DoxyCodeLine{00116\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00117\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ CODIGO\_VALIDO\ =\ \textcolor{stringliteral}{"{}AX91"{}};}
+\DoxyCodeLine{00118\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ NOME\_VALIDO\ =\ \textcolor{stringliteral}{"{}Antonio"{}};}
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ DESCRICAO\_VALIDA\ =\ \textcolor{stringliteral}{"{}Descricao\ do\ quadro"{}};}
+\DoxyCodeLine{00120\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ LIMITE\_VALIDO\ =\ 10;}
+\DoxyCodeLine{00121\ \ \ \ \ \mbox{\hyperlink{class_quadro}{Quadro}}\ *quadro;}
+\DoxyCodeLine{00122\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00123\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00124\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00125\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00126\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00127\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00128\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00129\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00130\ \};}
+\DoxyCodeLine{00131\ }
+\DoxyCodeLine{00132\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_u_cartao}{TUCartao}}\{}
+\DoxyCodeLine{00133\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00134\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ CODIGO\_VALIDO\ =\ \textcolor{stringliteral}{"{}AX91"{}};}
+\DoxyCodeLine{00135\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ NOME\_VALIDO\ =\ \textcolor{stringliteral}{"{}Geromel"{}};}
+\DoxyCodeLine{00136\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ DESCRICAO\_VALIDA\ =\ \textcolor{stringliteral}{"{}Descricao\ do\ cartao"{}};}
+\DoxyCodeLine{00137\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ COLUNA\_VALIDA\ =\ \textcolor{stringliteral}{"{}EM\ EXECUCAO"{}};}
+\DoxyCodeLine{00138\ \ \ \ \ \mbox{\hyperlink{class_cartao}{Cartao}}\ *cartao;}
+\DoxyCodeLine{00139\ \ \ \ \ \textcolor{keywordtype}{int}\ estado;}
+\DoxyCodeLine{00140\ \ \ \ \ \textcolor{keywordtype}{void}\ setUp();}
+\DoxyCodeLine{00141\ \ \ \ \ \textcolor{keywordtype}{void}\ tearDown();}
+\DoxyCodeLine{00142\ \ \ \ \ \textcolor{keywordtype}{void}\ testarCenarioSucesso();}
+\DoxyCodeLine{00143\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00144\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ SUCESSO\ =\ 0;}
+\DoxyCodeLine{00145\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ FALHA\ =\ -\/1;}
+\DoxyCodeLine{00146\ \ \ \ \ \textcolor{keywordtype}{int}\ run();}
+\DoxyCodeLine{00147\ \};}
+\DoxyCodeLine{00148\ }
+\DoxyCodeLine{00149\ }
+\DoxyCodeLine{00150\ }
+\DoxyCodeLine{00151\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ TESTES\_H}}
+
+\end{DoxyCode}
